@@ -7,7 +7,12 @@
 class PVDataMain : public Gtk::Window
 {
     private:
+    PVDataMain();
+    virtual ~PVDataMain();
+
     protected:
+    void onTopButtonClick();
+    
     public:
 }
 
