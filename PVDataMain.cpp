@@ -9,3 +9,18 @@ int main (int argc, char *argv[])
       return app->run(*pCurrentPVDataMain);
   }
 }
+
+PVDataMain::PVDataMain()
+{
+  set_border_width(1920);
+  set_border_height(1080);
+
+}
+
+PVDataMain::~PVDataMain()
+{
+}
+
+void PVDataMain::onTopButtonClick()
+{
+}
