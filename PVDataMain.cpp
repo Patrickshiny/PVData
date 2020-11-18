@@ -3,6 +3,9 @@
 
 int main (int argc, char *argv[])
 {
-
-  return app->run(PVDataMainWindow);
+  PVDataMain* pCurrentPVDataMain = new PVDataMain();
+  if (pCurrentPVDataMain != NULL)
+  {
+      return app->run(*pCurrentPVDataMain);
+  }
 }
