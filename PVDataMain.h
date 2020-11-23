@@ -9,6 +9,7 @@ class PVDataMain : public Gtk::Window
     private:
     PVDataMain();
     virtual ~PVDataMain();
+    Gtk::Paned CurrentPaned;
 
     protected:
     void onTopButtonClick();
